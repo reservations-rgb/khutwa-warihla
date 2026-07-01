@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خطوة ورحلة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar granite">
+  <nav class="navbar-inner">
+    <div class="logo">
+      <a href="index.html" class="logo-link">
+        <img src="images/logo-removebg-preview.png" class="site-logo" alt="لوجو">
+        <span class="logo-name">خطوة ورحلة</span>
+      </a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">الرئيسية</a></li>
+      <li><a href="#">خدماتنا</a></li>
+      <li><a href="#">الباقات</a></li>
+      <li><a href="#">من نحن</a></li>
+      <li><a href="#">تواصل معنا</a></li>
+    </ul>
+    <a class="btn-book" href="#">احجز الآن &nbsp;›</a>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+  </nav>
+  <div id="mobileMenu">
+    <a href="#">الرئيسية</a>
+    <a href="#">خدماتنا</a>
+    <a href="#">الباقات</a>
+    <a href="#">من نحن</a>
+    <a href="#">تواصل معنا</a>
+  </div>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg">
+    <img src="images/hero.jpg" alt="hero">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-lines"></div>
+  <div class="hero-content">
+    <p class="hero-label">وكالة سفر وسياحة</p>
+    <h1 class="hero-title">اكتشف العالم معنا</h1>
+    <p class="hero-sub">رحلات مميزة إلى وجهات ساحرة حول العالم — دعنا نصمم لك مغامرة لا تُنسى.</p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="#">استكشف وجهاتنا &nbsp;›</a>
+      <a class="btn-outline" href="#">تواصل معنا</a>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="about">
+  <div class="about-inner">
+    <div class="about-text">
+      <p class="section-label">من نحن</p>
+      <h2 class="section-title">رحلتك تبدأ معنا</h2>
+      <p class="section-text">
+        نحن وكالة سفر متخصصة في تصميم تجارب سفر فريدة تناسب أذواقك وميزانيتك.
+        نؤمن بأن كل رحلة قصة تستحق أن تُحكى.
+      </p>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-box">
+        <p class="stat-num">+5</p>
+        <p>سنة خبرة</p>
+      </div>
+      <div class="stat-box">
+        <p class="stat-num">+4000</p>
+        <p>مسافر سعيد</p>
+      </div>
+      <div class="stat-box">
+        <p class="stat-num">+80</p>
+        <p>وجهة</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="services granite">
+  <div class="services-inner">
+    <p class="section-label">خدماتنا</p>
+    <h2 class="section-title">باقاتنا</h2>
+    <div class="cards-grid">
+      <div class="card" tabindex="0">
+        <div class="icon-wrapper">
+          <img src="images/card1.jpg" alt="باقة العمرة">
+        </div>
+        <div class="card-body">
+          <h3>باقة العمرة</h3>
+          <p>مكة والمدينة</p>
+        </div>
+      </div>
+      <div class="card" tabindex="0">
+        <div class="icon-wrapper">
+          <img src="images/card2.jpg" alt="السياحة الترفيهية">
+        </div>
+        <div class="card-body">
+          <h3>السياحة الترفيهية</h3>
+          <p>جدة</p>
+        </div>
+      </div>
+      <div class="card" tabindex="0">
+        <div class="icon-wrapper">
+          <img src="images/card3.jpg" alt="السياحة الثقافية">
+        </div>
+        <div class="card-body">
+          <h3>السياحة الثقافية</h3>
+          <p>العلا</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer granite">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <h3>خطوة و رحلة</h3>
+      <p>© <span id="year"></span> جميع الحقوق محفوظة</p>
+    </div>
+    <div class="footer-contact">
+      <p><span class="footer-icon">📞</span> +966 50 000 1234</p>
+      <p><span class="footer-icon">✉️</span> info@khotwa-rehla.com</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
